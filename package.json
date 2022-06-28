@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "video": "remotion preview ./lib/remotion/index.tsx"
   },
   "dependencies": {
+    "@remotion/cli": "^3.0.23",
+    "@remotion/player": "^3.0.23",
+    "@remotion/renderer": "^3.0.23",
     "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "remotion": "^3.0.23"
   },
   "devDependencies": {
     "@types/node": "18.0.0",
